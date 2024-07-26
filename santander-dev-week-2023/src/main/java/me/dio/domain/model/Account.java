@@ -17,7 +17,7 @@ public class Account {
     @Column(precision = 2, scale = 13)
     private BigDecimal balance;
 
-    @Column(precision = 2, scale = 13)
+    @Column(name = "additional_limit", precision = 2, scale = 13)
     private BigDecimal limit;
 
     public String getNumber() {
